@@ -1,0 +1,48 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+      border: 4px rgb(17, 17, 17) solid;
+
+    background-color: rgb(36, 24, 75);
+    
+}
+
+.card-container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    background-color: #d8d8d8;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 50px;
+    border-radius: 100px;
+    flex: 1 1 200px;
+}
+
+body{
+
+    background-color: #aaa7a7;
+    margin: 0;
+
+
+}
+.links a{
+    color: rgba(255, 247, 247, 0.885);
+    padding: 0 15px;
+    text-decoration: none;
+   
+
+
+}
+
+
+.links a:hover{
+    color: rgba(158, 160, 156, 0.885);
+
+}
+

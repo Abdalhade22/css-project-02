@@ -1,0 +1,57 @@
+.palette {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.swatch {
+    width: 180px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.named {
+    background-color: tomato;
+}
+
+.hex {
+    background-color: #3498db;
+}
+
+.rgb-color {
+    background-color: rgb(46, 204, 113);
+}
+
+.rgba-color {
+    background-color: rgba(155, 89, 182, 0.6);
+}
+
+.comparison {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.box-opacity {
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    opacity: 0.5;
+    color: white;
+    padding: 20px;
+}
+
+.box-rgba {
+    width: 200px;
+    height: 150px;
+    background-color: rgba(0, 0, 255, 0.5);
+    color: white;
+    padding: 20px;
+}

@@ -1,0 +1,44 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #17008b;
+    color: white;
+    padding: 15px;
+    z-index: 100;
+}
+
+main {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+}
